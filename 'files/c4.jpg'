@@ -1,0 +1,79 @@
+<!DOCTYPE html><html><head><head><meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no"><script src="/cdn-cgi/apps/head/_6VLVQaT951c0_zYacsKvJlDTlo.js"></script><link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css"><style>body{
+  background: #e3e3df;
+  color: #b7b7b7;
+  margin:0;
+  padding:0;
+  font-size:82%;
+  font-family: "Fira mono", "Verdana", "Helvetica", "Arial";
+}
+
+.content{
+  margin:80px auto;
+  text-align:center;
+}
+
+.content img{
+  margin:15px 0;
+}
+
+.content h1{
+  font-weight: 300;
+  font-size: 2em;
+  margin:15px 0;
+}
+
+.content h2{
+  font-weight: 300;
+}
+
+.insignia{
+  margin:5em auto;
+  max-width:24em;
+  filter: grayscale(90%);
+  opacity:.9;
+}
+
+#footer {
+   position:fixed;
+   left:0px;
+   bottom:0px;
+   width:100%;
+   background:#FFF;
+}
+
+#footer ul{
+  margin:0;
+  padding:1.5em;
+  list-style-type: none;
+  text-align:center;
+}
+
+#footer ul li{
+  margin:0;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 20px;
+  padding:1em 0;
+}
+
+#footer ul li a{
+  color:#999;
+}
+
+/* IE 6 */
+* html #footer {
+   position:absolute;
+   top:expression((0-(footer.offsetHeight)+(document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight)+(ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop))+'px');
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+
+  .content img{
+    width:60%;
+  }
+
+  .content h1{
+    font-size: 1.8em;
+  }
+}</style></head><title>page not found</title>
